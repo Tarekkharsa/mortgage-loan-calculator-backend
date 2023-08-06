@@ -1,7 +1,3 @@
-Sure! Below is an example `README.md` file for your Laravel application that includes a description of the project, installation instructions, usage, and other relevant information.
-
-markdownCopy code
-
 `# Mortgage Loan Calculator
   Mortgage Loan Calculator is a web application built with Laravel that allows users to calculate mortgage loan details based on their inputs, such as loan amount, interest rate, loan term, and optional extra repayment.  ## Features  
 - Calculate mortgage loan details with interest breakdown and amortization schedule. 
