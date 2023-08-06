@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FinalTestController;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/loan-calculator', [FinalTestController::class, 'showLoanCalculator'])->name('loan.calculator');
+Route::post('/loan-calculation', [FinalTestController::class, 'calculateLoan'])->name('loan.calculate');
